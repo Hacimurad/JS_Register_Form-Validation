@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0px;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.container{
+    background-color: white;
+    border-radius: 5px;
+}
+.container h2{
+   
+    padding: 20px 40px;
+    border-bottom: 1px solid #f0f0f0;
+}
+form{
+    padding: 30px 40px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-space{
+    justify-content: space-between
+}
+.col-2{
+    width: calc((100% - 30px) / 2);
+}
+.input-group{
+    position: relative;
+    margin-bottom: 22px;
+}
+.label{
+    font-size: 16px;
+    color: #555;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    outline: none; 
+    margin: 0; 
+     border: none; 
+    
+     width: 100%; 
+     font-size: 14px; 
+    font-family: inherit;
+}
+.input--style-4 {
+    line-height: 50px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666;
+}
+.mafe{
+    padding-top: 10px;
+    font-size: 16px;
+    color: #666;
+    display: flex;
+
+}
+select{
+         line-height: 50px; 
+     background: #f0f0f0; 
+     border-radius: 5px; 
+     padding: 0 20px; 
+    font-size: 16px; 
+     color: #666;
+     border: none;
+     width: 100%;
+     height: 47px;
+}
+.btn {
+    background: transparent;
+    border-radius: 5px;
+    background-color: blue;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 50px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
+button {
+    outline: none;
+    background: none;
+    border: none;
+}
+#error_message{
+    margin-bottom: 20px;
+  background: red;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
